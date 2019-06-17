@@ -1,0 +1,71 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ContactApp</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/contactApp.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800" rel="stylesheet">
+
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="js/contactApp.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/md5.js"></script>
+        <script src="https://use.fontawesome.com/f6666536eb.js"></script>
+    </head>
+    <body class="bodyclass">
+        <div class="nav-bar">
+            <p class="nav_p">Smart Contact</p>
+            <p class="pull-right nav_p"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Username</p>
+        </div>
+        <div class="mycontactheading">My Contacts</div>
+        <div id="contact_div" class="mycontactdiv"></div>
+
+        <div id="individual_contact" class="individualcontact" style="display:none">
+
+        </div>
+
+        <div class="addnewcontactdiv">
+            <button class="addnewcontactbtn" style='cursor: pointer' onclick="addnewcontactbtnfunction();">Add new Contact</button>
+
+            <div id="addnewcontact" style="display: none;">
+                <i class='fa fa-times pull-right' aria-hidden='true' style='cursor: pointer'  onclick='closeformBtn();'></i>
+                <form action="#" class="formclass">
+                    <span class="spanstyle">
+                        <label style="font-weight: 500;float: left;">First Name*</label><br>
+                        <input type="text" name="firstname" id="firstname" value="" class="inputstyle" required>
+                    </span>
+                        <span class="spanstyle">
+                        <label style="font-weight: 500;">Last Name*</label><br>
+                        <input type="text" name="lastname" id="lastname" value="" class="inputstyle" required>
+                    </span>
+
+                        <span class="spanstyle">
+                        <label style="font-weight: 500;float: left;">E-mail:*</label><br>
+                        <input type="email" name="email" id="email" value="" class="inputstyle" required>
+                    </span>
+                        <span class="spanstyle">
+                        <label style="font-weight: 500;">Phone Number*</label><br>
+                        <input pattern="\d*" type="text" id="phonenumber" name="phonenumber" value="" class="inputstyle" required>
+                    </span>
+
+                    <span class="spanstyle">
+                        <label style="font-weight: 500;float: left;">Address:*</label><br>
+                        <input pattern="\d*" type="text" id="address" name="address" value="" class="inputstyle" required>
+                    </span>
+
+                    <span class="spanstyle">
+                        <label style="font-weight: 500;float: left;">Birth date:*</label><br>
+                        <input pattern="\d*" type="text" id="birthday" name="birthday" value="" class="inputstyle" required>
+                    </span>
+
+                    <input type="button" value="Submit" onclick="createnewcontact();" class="submitbtn">
+
+                </form>
+            </div>
+
+
+        </div>
+    </body>
+</html>

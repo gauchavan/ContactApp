@@ -1,0 +1,75 @@
+[ {
+    "firstName":"Gauri",
+    "lastName":"Chavan",
+    "birthday":"05-09-1992",
+    "email":"gauric31@gmail.com",
+    "bgcolor":"#DCDCDC",
+    "phone": "5183689965",
+    "address":"United States"
+  },
+  {
+    "firstName":"Anish",
+    "lastName":"Surti",
+    "birthday":"03-06-1992",
+    "email":"surti.a@husky.neu.edu",
+    "bgcolor":"#D3D3D3",
+    "phone": "8573996561",
+    "address":"United States"
+  },
+  {
+    "firstName": "Pratik",
+    "lastName":"Bhanushali",
+    "birthday":"11-04-1991",
+    "email":"pratikbhanushali@ymail.com",
+    "bgcolor":"#C0C0C0",
+    "phone": "4695437613",
+    "address":"United States"
+  },
+  {
+    "firstName": "Jenil",
+    "lastName":"Gogari",
+    "birthday":"12-27-1992",
+    "email":"jenil27@gmail.com",
+    "bgcolor":"#808080",
+    "phone": "3635434533",
+    "address":"United States"
+  },
+  {
+    "firstName": "Dharit",
+    "lastName":"Shah",
+    "birthday":"04-13-1993",
+    "email":"dharitshah1304@gmail.com",
+    "bgcolor":"#686868",
+    "phone": "3645663767",
+    "address":"United States"
+  },
+  {
+    "firstName": "Sanika",
+    "lastName":"Bhagat",
+    "birthday":"12-08-1993",
+    "email":"sanika.s.bhagat@gmail.com",
+    "bgcolor":"#f2f2f2",
+    "phone": "3645683767",
+    "address":"United States"
+  },
+  {
+    "id":8,
+    "firstName": "Sameer",
+    "lastName":"Jackeray",
+    "birthday":"10-06-1995",
+    "email":"jackeray89@gmail.com",
+    "bgcolor":"#707070",
+    "phone": "3245683767",
+    "address":"United States"
+  },
+  {
+    "firstName": "Raj",
+    "lastName":"Phadke",
+    "birthday":"02-10-1996",
+    "email":"phadke.raj@gmail.com",
+    "bgcolor":"#f1f1f1",
+    "phone": "2225683767",
+    "address":"United States"
+  }
+
+]
